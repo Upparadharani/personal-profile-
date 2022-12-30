@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+   background-image: url("logo.jpg");
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1{
+  font-size: 50px;
+  word-break: break-all;
+  color: white;
+}
+h2,h4{
+  
+  word-break: break-all;
+  color: white;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>MY FAMILY</h1>
+<hr>
+
+<h2>FAMILY IS MOST IMPORTANT PART OF MY LIFE </h2>
+<h4>They are always my first priority</h4>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="C:\Users\dhara\OneDrive\Desktop\personal web page\momm.jpg" style="width:100%" style="height:90%">
+      <h3>My Mom</h3>
+      <p>My mother name is Sailaja She's my super hero.She always teaches me to stand without support and she is the only person who holds me when I am about to fall in my life </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\dhara\OneDrive\Desktop\personal web page\cousin.jpg" alt="Lights" style="width:100%">
+      <h3>My brother</h3>
+<p>my brother name is Vedhanth.He is my happy place.I love him to the moon and the back .I'm happy to have him in my life. I forget all my worries when i see him </p>    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\dhara\OneDrive\Desktop\personal web page\cousins.jpg" alt="Nature" style="width:100%">
+      <h3>My cousin</h3>
+<p>My brother name is Karthikeyan.He is the biggest part of my life.He always encourages me when I am low .He always directs me in the right path.He is my inspiration.   </p>    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="C:\Users\dhara\OneDrive\Desktop\personal web page\laya.jpg" alt="Mountains" style="width:100%">
+      <h3>My best friend</h3>
+<p>My best friend name is Laya.Even though she is my friend she's part of my family.She always supports me and helps me in tough situations.</p>    </div>
+  </div>
+<!-- END GRID -->
+</div>
+<h2>I'm happy to have them as my family</h2>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
